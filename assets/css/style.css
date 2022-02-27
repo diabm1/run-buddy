@@ -33,10 +33,13 @@ header nav {
 }
 
 header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-    display: inline;
 }
 
 footer {
@@ -60,4 +63,9 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+section {
+    padding: 60px;
+    background-image: url("../images/hero-bg.jpeg");
 }
